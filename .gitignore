@@ -3,3 +3,9 @@
 ################################################################################
 
 /src/BuildingBlocks/Application/obj
+/src/BuildingBlocks/Domain/obj
+/src/BuildingBlocks/Infrastructure/obj
+/src/Services/Contract/Contract.Domain/obj
+/src/BuildingBlocks/Domain/bin/Debug/netstandard2.0
+/.vs/mocrm/v16
+/.vs/mocrm/DesignTimeBuild
