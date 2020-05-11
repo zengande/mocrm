@@ -9,7 +9,7 @@ using YunStorm.MoCRM.BuildingBlocks.Domain;
 
 namespace YunStorm.MoCRM.BuildingBlocks.Infrastructure
 {
-    static class MediatorExtensions
+    public static class MediatorExtensions
     {
         public static async Task DispatchDomainEventsAsync(this IMediator mediator, DbContext ctx)
         {

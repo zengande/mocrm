@@ -9,3 +9,12 @@
 /src/BuildingBlocks/Domain/bin/Debug/netstandard2.0
 /.vs/mocrm/v16
 /.vs/mocrm/DesignTimeBuild
+/.vs/mocrm/config
+/src/Services/Contract/Contract.Domain/bin/Debug/netstandard2.0
+/src/Services/Contract/ContractOrding.Infrastructure/obj
+/src/Services/Customer/Customer.Domain/bin/Debug/netstandard2.0
+/src/Services/Customer/Customer.Domain/obj
+/src/Services/Contract/ContractOrdering.UnitTests/bin/Debug/netcoreapp3.1
+/src/Services/Contract/ContractOrdering.UnitTests/obj
+/src/Services/Contract/ContractOrding.Infrastructure/bin/Debug/netstandard2.0
+/TestResults/27fc5247-3075-42cb-8459-741b01cee2e3

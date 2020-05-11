@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>YunStorm.MoCRM.Contract.Domain</AssemblyName>
-    <RootNamespace>YunStorm.MoCRM.Contract.Domain</RootNamespace>
+    <AssemblyName>YunStorm.MoCRM.Customer.Domain</AssemblyName>
+    <RootNamespace>YunStorm.MoCRM.Customer.Domain</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

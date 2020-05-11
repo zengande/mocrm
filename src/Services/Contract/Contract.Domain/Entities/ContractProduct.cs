@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 using YunStorm.MoCRM.BuildingBlocks.Domain;
 
-namespace YunStorm.MoCRM.Contract.Domain.ContractAggregate
+namespace YunStorm.MoCRM.ContractOrdering.Domain.Entities
 {
+    /// <summary>
+    /// 合同关联产品
+    /// </summary>
     public class ContractProduct
         : Entity
     {
