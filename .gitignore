@@ -18,3 +18,8 @@
 /src/Services/Contract/ContractOrdering.UnitTests/obj
 /src/Services/Contract/ContractOrding.Infrastructure/bin/Debug/netstandard2.0
 /TestResults/27fc5247-3075-42cb-8459-741b01cee2e3
+/src/BuildingBlocks/Application/bin/Debug/netstandard2.0
+/src/Services/Contract/ContractOrdering.API/bin/Debug/netcoreapp3.1
+/src/Services/Contract/ContractOrdering.API/obj
+/src/Services/Contract/ContractOrdering.Application/bin/Debug/netstandard2.0
+/src/Services/Contract/ContractOrdering.Application/obj
