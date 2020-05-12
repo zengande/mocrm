@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>YunStorm.MoCRM.BuildingBlocks.Infrastructure</AssemblyName>
+    <RootNamespace>YunStorm.MoCRM.BuildingBlocks.Infrastructure</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\YunStorm.MoCRM.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\Domain\BuildingBlocks.Domain.csproj" />
   </ItemGroup>
 
 </Project>

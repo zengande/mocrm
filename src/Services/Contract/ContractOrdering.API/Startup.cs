@@ -11,9 +11,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using YunStorm.MoCRM.ContractOrdering.Application;
 using Microsoft.OpenApi.Models;
-using ContractOrdering.API.Filters;
+using YunStorm.MoCRM.ContractOrdering.API.Filters;
 
-namespace ContractOrdering.API
+namespace YunStorm.MoCRM.ContractOrdering.API
 {
     public class Startup
     {

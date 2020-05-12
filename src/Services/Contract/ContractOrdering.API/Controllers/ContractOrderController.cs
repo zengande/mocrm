@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using YunStorm.MoCRM.ContractOrdering.Application.Commands.ContractOrder.CreateContractOrder;
 
-namespace ContractOrdering.API.Controllers
+namespace YunStorm.MoCRM.ContractOrdering.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

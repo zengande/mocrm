@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using YunStorm.MoCRM.BuildingBlocks.Application.Interfaces;
 
-namespace YunStorm.MoCRM.ContractOrdering.Application.Services
+namespace YunStorm.MoCRM.ContractOrdering.Application.Identity
 {
     public class CurrentUserService : ICurrentUserService
     {

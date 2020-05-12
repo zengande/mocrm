@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "ContractOrdering.API": {
+    "YunStorm.MoCRM.ContractOrdering.API": {
       "commandName": "Project",
       "launchUrl": "weatherforecast",
       "environmentVariables": {

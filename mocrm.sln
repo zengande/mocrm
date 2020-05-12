@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{922A38BC-38DB-4BC8-8580-0A14076482BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YunStorm.MoCRM.BuildingBlocks.Domain", "src\BuildingBlocks\Domain\YunStorm.MoCRM.BuildingBlocks.Domain.csproj", "{294D2A90-D865-4E12-A4F3-8A5BC1D90517}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Domain", "src\BuildingBlocks\Domain\BuildingBlocks.Domain.csproj", "{294D2A90-D865-4E12-A4F3-8A5BC1D90517}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YunStorm.MoCRM.BuildingBlocks.Infrastructure", "src\BuildingBlocks\Infrastructure\YunStorm.MoCRM.BuildingBlocks.Infrastructure.csproj", "{E7B211D0-79B6-474F-BFE1-00BC75F20B0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Infrastructure", "src\BuildingBlocks\Infrastructure\BuildingBlocks.Infrastructure.csproj", "{E7B211D0-79B6-474F-BFE1-00BC75F20B0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0448F2F9-966A-4DC9-9987-5D9F76FE5F8A}"
 EndProject
@@ -35,9 +35,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{532C47A0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractOrdering.Application", "src\Services\Contract\ContractOrdering.Application\ContractOrdering.Application.csproj", "{8F2B5CC2-32BA-4BA4-BB27-5EE650DA35DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YunStorm.MoCRM.BuildingBlocks.Application", "src\BuildingBlocks\Application\YunStorm.MoCRM.BuildingBlocks.Application.csproj", "{667AF3B2-AFD1-4851-A17D-C1482EE4E0DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Application", "src\BuildingBlocks\Application\BuildingBlocks.Application.csproj", "{667AF3B2-AFD1-4851-A17D-C1482EE4E0DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractOrdering.API", "src\Services\Contract\ContractOrdering.API\ContractOrdering.API.csproj", "{1C899CB9-7357-4762-A322-4B27671B4F85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{196E1CD9-9EC5-419D-B801-389B1DFF6E8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Common", "src\BuildingBlocks\Common\BuildingBlocks.Common.csproj", "{13DB3C46-12B2-4B8B-9ABB-486460925D3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,10 @@ Global
 		{1C899CB9-7357-4762-A322-4B27671B4F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C899CB9-7357-4762-A322-4B27671B4F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C899CB9-7357-4762-A322-4B27671B4F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +111,8 @@ Global
 		{8F2B5CC2-32BA-4BA4-BB27-5EE650DA35DD} = {00EE60CD-862E-4B2A-9655-59101F0DE8E6}
 		{667AF3B2-AFD1-4851-A17D-C1482EE4E0DE} = {191470D8-9357-4328-A2B8-146398599A89}
 		{1C899CB9-7357-4762-A322-4B27671B4F85} = {00EE60CD-862E-4B2A-9655-59101F0DE8E6}
+		{196E1CD9-9EC5-419D-B801-389B1DFF6E8C} = {14170C5B-8A8B-4958-B457-7F844BEE3D24}
+		{13DB3C46-12B2-4B8B-9ABB-486460925D3D} = {196E1CD9-9EC5-419D-B801-389B1DFF6E8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CCABFBE-EBAB-46EA-B9AF-6270A361658C}

@@ -23,3 +23,5 @@
 /src/Services/Contract/ContractOrdering.API/obj
 /src/Services/Contract/ContractOrdering.Application/bin/Debug/netstandard2.0
 /src/Services/Contract/ContractOrdering.Application/obj
+/src/BuildingBlocks/Common/obj
+/src/BuildingBlocks/Infrastructure/bin/Debug/netstandard2.0

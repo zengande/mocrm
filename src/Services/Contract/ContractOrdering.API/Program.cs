@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ContractOrdering.API
+namespace YunStorm.MoCRM.ContractOrdering.API
 {
     public class Program
     {

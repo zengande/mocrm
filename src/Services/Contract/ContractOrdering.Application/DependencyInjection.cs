@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using YunStorm.MoCRM.BuildingBlocks.Application.Behaviours;
 using YunStorm.MoCRM.BuildingBlocks.Application.Interfaces;
-using YunStorm.MoCRM.ContractOrdering.Application.Services;
+using YunStorm.MoCRM.ContractOrdering.Application.Identity;
 
 namespace YunStorm.MoCRM.ContractOrdering.Application
 {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using YunStorm.MoCRM.BuildingBlocks.Application.Interfaces;
 using YunStorm.MoCRM.BuildingBlocks.Application.Models;
 
-namespace YunStorm.MoCRM.ContractOrdering.Application.Services
+namespace YunStorm.MoCRM.ContractOrdering.Application.Identity
 {
     public class IdentityService : IIdentityService
     {

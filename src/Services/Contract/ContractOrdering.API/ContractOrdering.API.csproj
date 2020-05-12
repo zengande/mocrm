@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>YunStorm.MoCRM.ContractOrdering.API</AssemblyName>
+    <RootNamespace>YunStorm.MoCRM.ContractOrdering.API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

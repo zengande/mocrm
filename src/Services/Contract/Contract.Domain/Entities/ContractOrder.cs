@@ -39,6 +39,7 @@ namespace YunStorm.MoCRM.ContractOrdering.Domain.Entities
         /// 创建者
         /// </summary>
         public string CreatorId { get; private set; }
+        public DateTime CreationTime { get; private set; }
         /// <summary>
         /// 待办事项
         /// </summary>
@@ -53,20 +54,29 @@ namespace YunStorm.MoCRM.ContractOrdering.Domain.Entities
         /// 付款方式
         /// </summary>
         public PaymentMethod PaymentMethod { get; private set; }
-        private int _paymentMethodId;
+        private int? _paymentMethodId;
         /// <summary>
         /// 状态
         /// </summary>
         public ContractStatus ContractStatus { get; private set; }
-        private int _contractStatusId;
+        private int? _contractStatusId;
 
-        public ContractOrder(string number, string name, decimal contractCost)
+        public ContractOrder(string number, string name, decimal contractCost, int? paymentMethodId = null, int? contractStatusId = null)
+            : this()
         {
             Number = number;
             Name = name;
             ContractCost = contractCost;
+
+            _paymentMethodId = paymentMethodId;
+            _contractStatusId = contractStatusId;
         }
 
-        protected ContractOrder() { }
+        protected ContractOrder()
+        {
+            _todoList = new List<ContractToDo>();
+            _contractProducts = new List<ContractProduct>();
+            CreationTime = DateTime.UtcNow;
+        }
     }
 }

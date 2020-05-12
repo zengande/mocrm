@@ -11,6 +11,7 @@ namespace YunStorm.MoCRM.ContractOrdering.Application.Commands.ContractOrder.Cre
     {
         public async Task<long> Handle(CreateContractOrderCommand request, CancellationToken cancellationToken)
         {
+            await Task.Delay(600);
             return 0L;
         }
     }

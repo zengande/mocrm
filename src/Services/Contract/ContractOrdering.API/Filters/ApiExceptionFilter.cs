@@ -1,19 +1,22 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using YunStorm.MoCRM.BuildingBlocks.Application.Exceptions;
 
-namespace ContractOrdering.API.Filters
+namespace YunStorm.MoCRM.ContractOrdering.API.Filters
 {
     public class ApiExceptionFilter : ExceptionFilterAttribute
     {
 
         private readonly IDictionary<Type, Action<ExceptionContext>> _exceptionHandlers;
-
-        public ApiExceptionFilter()
+        private readonly ILogger<ApiExceptionFilter> _logger;
+        public ApiExceptionFilter(ILogger<ApiExceptionFilter> logger)
         {
+            _logger = logger;
+
             // Register known exception types and handlers.
             _exceptionHandlers = new Dictionary<Type, Action<ExceptionContext>>
             {
@@ -24,6 +27,8 @@ namespace ContractOrdering.API.Filters
 
         public override void OnException(ExceptionContext context)
         {
+            _logger.LogError(context.Exception, context.Exception.Message);
+
             HandleException(context);
 
             base.OnException(context);
