@@ -25,3 +25,7 @@
 /src/Services/Contract/ContractOrdering.Application/obj
 /src/BuildingBlocks/Common/obj
 /src/BuildingBlocks/Infrastructure/bin/Debug/netstandard2.0
+/src/BuildingBlocks/Presentation/Presentation.API/bin/Debug/netstandard2.0
+/src/BuildingBlocks/Presentation/Presentation.API/obj
+/src/Services/Identity/Identity.API/bin/Debug/netcoreapp3.1
+/src/Services/Identity/Identity.API/obj

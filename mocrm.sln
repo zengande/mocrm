@@ -33,15 +33,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractOrdering.UnitTests"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{532C47A0-043D-49FD-91CA-843E80F63DCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractOrdering.Application", "src\Services\Contract\ContractOrdering.Application\ContractOrdering.Application.csproj", "{8F2B5CC2-32BA-4BA4-BB27-5EE650DA35DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractOrdering.Application", "src\Services\Contract\ContractOrdering.Application\ContractOrdering.Application.csproj", "{8F2B5CC2-32BA-4BA4-BB27-5EE650DA35DD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Application", "src\BuildingBlocks\Application\BuildingBlocks.Application.csproj", "{667AF3B2-AFD1-4851-A17D-C1482EE4E0DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractOrdering.API", "src\Services\Contract\ContractOrdering.API\ContractOrdering.API.csproj", "{1C899CB9-7357-4762-A322-4B27671B4F85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractOrdering.API", "src\Services\Contract\ContractOrdering.API\ContractOrdering.API.csproj", "{1C899CB9-7357-4762-A322-4B27671B4F85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{196E1CD9-9EC5-419D-B801-389B1DFF6E8C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Common", "src\BuildingBlocks\Common\BuildingBlocks.Common.csproj", "{13DB3C46-12B2-4B8B-9ABB-486460925D3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{82D27A16-E328-4CED-9FBB-239AF91D74DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identity.API", "src\Services\Identity\Identity.API\Identity.API.csproj", "{E6D2B9E9-1BDB-42AC-929F-B634D9749F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DD635F00-467D-41E6-B33B-B3EF14233B8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingBlocks.Presentation.API", "src\BuildingBlocks\Presentation\Presentation.API\BuildingBlocks.Presentation.API.csproj", "{4806EC72-4C9E-472F-B7B4-2792B674723A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +97,14 @@ Global
 		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13DB3C46-12B2-4B8B-9ABB-486460925D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6D2B9E9-1BDB-42AC-929F-B634D9749F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D2B9E9-1BDB-42AC-929F-B634D9749F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D2B9E9-1BDB-42AC-929F-B634D9749F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D2B9E9-1BDB-42AC-929F-B634D9749F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4806EC72-4C9E-472F-B7B4-2792B674723A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4806EC72-4C9E-472F-B7B4-2792B674723A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4806EC72-4C9E-472F-B7B4-2792B674723A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4806EC72-4C9E-472F-B7B4-2792B674723A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +129,10 @@ Global
 		{1C899CB9-7357-4762-A322-4B27671B4F85} = {00EE60CD-862E-4B2A-9655-59101F0DE8E6}
 		{196E1CD9-9EC5-419D-B801-389B1DFF6E8C} = {14170C5B-8A8B-4958-B457-7F844BEE3D24}
 		{13DB3C46-12B2-4B8B-9ABB-486460925D3D} = {196E1CD9-9EC5-419D-B801-389B1DFF6E8C}
+		{82D27A16-E328-4CED-9FBB-239AF91D74DA} = {57B9A99B-FBA6-42E8-979B-FDD2FE822767}
+		{E6D2B9E9-1BDB-42AC-929F-B634D9749F95} = {82D27A16-E328-4CED-9FBB-239AF91D74DA}
+		{DD635F00-467D-41E6-B33B-B3EF14233B8B} = {14170C5B-8A8B-4958-B457-7F844BEE3D24}
+		{4806EC72-4C9E-472F-B7B4-2792B674723A} = {DD635F00-467D-41E6-B33B-B3EF14233B8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CCABFBE-EBAB-46EA-B9AF-6270A361658C}

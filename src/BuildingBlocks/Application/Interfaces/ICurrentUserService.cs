@@ -8,4 +8,10 @@ namespace YunStorm.MoCRM.BuildingBlocks.Application.Interfaces
     {
         string UserId { get; }
     }
+
+    public class DefaultCurrentUserService : ICurrentUserService
+    {
+        public string UserId => Guid.Empty.ToString();
+    }
+
 }
