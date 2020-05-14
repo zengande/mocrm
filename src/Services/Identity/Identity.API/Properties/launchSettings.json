@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Identity.API": {
+    "YunStorm.MoCRM.Identity.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

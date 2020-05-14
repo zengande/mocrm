@@ -1,6 +1,6 @@
 using System;
 
-namespace Identity.API.Models
+namespace YunStorm.MoCRM.Identity.API.Models
 {
     public class ErrorViewModel
     {
