@@ -2,8 +2,8 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>YunStorm.MoCRM.YunStorm.MoCRM.Identity.API</AssemblyName>
-    <RootNamespace>YunStorm.MoCRM.YunStorm.MoCRM.Identity.API</RootNamespace>
+    <AssemblyName>YunStorm.MoCRM.Identity.API</AssemblyName>
+    <RootNamespace>YunStorm.MoCRM.Identity.API</RootNamespace>
     <UserSecretsId>823bdc72-048a-496d-899e-7b13d98e59ad</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..\..</DockerfileContext>

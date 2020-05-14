@@ -17,4 +17,4 @@ RUN dotnet publish "Identity.API.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "YunStorm.MoCRM.YunStorm.MoCRM.Identity.API.dll"]
+ENTRYPOINT ["dotnet", "YunStorm.MoCRM.Identity.API.dll"]
