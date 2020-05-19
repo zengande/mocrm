@@ -12,11 +12,11 @@ namespace YunStorm.MoCRM.ContractOrdering.API.Controllers
     [ApiController]
     [Route("api/[controller]")]
     [Authorize]
-    public class ContractOrderController
+    public class ContractOrdersController
         : ControllerBase
     {
         private readonly IMediator _mediator;
-        public ContractOrderController(IMediator mediator)
+        public ContractOrdersController(IMediator mediator)
         {
             _mediator = mediator;
         }
