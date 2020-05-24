@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>YunStorm.MoCRM.Customer</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\YunStorm.MoCRM.BuildingBlocks.Common\YunStorm.MoCRM.BuildingBlocks.Common.csproj" />
+    <ProjectReference Include="..\YunStorm.MoCRM.Customer.Domain.Shared\YunStorm.MoCRM.Customer.Domain.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>

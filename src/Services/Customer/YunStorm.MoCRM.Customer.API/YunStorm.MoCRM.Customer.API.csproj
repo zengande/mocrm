@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>YunStorm.MoCRM.Customer</RootNamespace>
+    <UserSecretsId>184bfb78-d6d5-4736-8f85-3f043cd24a8a</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="2.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YunStorm.MoCRM.Customer.Application\YunStorm.MoCRM.Customer.Application.csproj" />
+    <ProjectReference Include="..\YunStorm.MoCRM.Customer.EntityFrameworkCore.DbMigrations\YunStorm.MoCRM.Customer.EntityFrameworkCore.DbMigrations.csproj" />
+  </ItemGroup>
+</Project>
