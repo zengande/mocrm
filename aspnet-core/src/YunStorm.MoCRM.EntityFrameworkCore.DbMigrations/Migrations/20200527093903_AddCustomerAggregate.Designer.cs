@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using YunStorm.MoCRM.EntityFrameworkCore;
 
 namespace YunStorm.MoCRM.Migrations
 {
     [DbContext(typeof(MoCRMMigrationsDbContext))]
-    partial class MoCRMMigrationsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200527093903_AddCustomerAggregate")]
+    partial class AddCustomerAggregate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

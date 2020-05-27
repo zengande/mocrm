@@ -5,6 +5,7 @@ using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.Modeling;
 using Volo.Abp.Identity;
 using Volo.Abp.Users.EntityFrameworkCore;
+using YunStorm.MoCRM.Customers;
 
 namespace YunStorm.MoCRM.EntityFrameworkCore
 {
@@ -21,6 +22,8 @@ namespace YunStorm.MoCRM.EntityFrameworkCore
     public class MoCRMDbContext : AbpDbContext<MoCRMDbContext>
     {
         public DbSet<AppUser> Users { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
         /* Add DbSet properties for your Aggregate Roots / Entities here.
          * Also map them inside MoCRMDbContextModelCreatingExtensions.ConfigureMoCRM

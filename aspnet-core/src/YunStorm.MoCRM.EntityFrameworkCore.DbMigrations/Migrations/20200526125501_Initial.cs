@@ -576,7 +576,7 @@ namespace YunStorm.MoCRM.Migrations
                 columns: table => new
                 {
                     Type = table.Column<string>(maxLength: 250, nullable: false),
-                    Value = table.Column<string>(maxLength: 4000, nullable: false),
+                    Value = table.Column<string>(maxLength: 256, nullable: false),
                     ApiResourceId = table.Column<Guid>(nullable: false),
                     Description = table.Column<string>(maxLength: 2000, nullable: true),
                     Expiration = table.Column<DateTime>(nullable: true)
@@ -670,7 +670,7 @@ namespace YunStorm.MoCRM.Migrations
                 columns: table => new
                 {
                     ClientId = table.Column<Guid>(nullable: false),
-                    PostLogoutRedirectUri = table.Column<string>(maxLength: 2000, nullable: false)
+                    PostLogoutRedirectUri = table.Column<string>(maxLength: 256, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -707,7 +707,7 @@ namespace YunStorm.MoCRM.Migrations
                 columns: table => new
                 {
                     ClientId = table.Column<Guid>(nullable: false),
-                    RedirectUri = table.Column<string>(maxLength: 2000, nullable: false)
+                    RedirectUri = table.Column<string>(maxLength: 256, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -743,7 +743,7 @@ namespace YunStorm.MoCRM.Migrations
                 columns: table => new
                 {
                     Type = table.Column<string>(maxLength: 250, nullable: false),
-                    Value = table.Column<string>(maxLength: 4000, nullable: false),
+                    Value = table.Column<string>(maxLength: 256, nullable: false),
                     ClientId = table.Column<Guid>(nullable: false),
                     Description = table.Column<string>(maxLength: 2000, nullable: true),
                     Expiration = table.Column<DateTime>(nullable: true)

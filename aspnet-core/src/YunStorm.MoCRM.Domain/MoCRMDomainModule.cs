@@ -11,6 +11,7 @@ using Volo.Abp.PermissionManagement.Identity;
 using Volo.Abp.PermissionManagement.IdentityServer;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
+using Volo.Abp.EventBus;
 
 namespace YunStorm.MoCRM
 {
@@ -24,7 +25,8 @@ namespace YunStorm.MoCRM
         typeof(AbpIdentityServerDomainModule),
         typeof(AbpPermissionManagementDomainIdentityServerModule),
         typeof(AbpSettingManagementDomainModule),
-        typeof(AbpTenantManagementDomainModule)
+        typeof(AbpTenantManagementDomainModule),
+        typeof(AbpEventBusModule)
         )]
     public class MoCRMDomainModule : AbpModule
     {
@@ -39,6 +41,7 @@ namespace YunStorm.MoCRM
             {
                 options.IsEnabled = MultiTenancyConsts.IsEnabled;
             });
+
         }
     }
 }
